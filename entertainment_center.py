@@ -15,5 +15,5 @@ fear_and_loathing = media.Movie("Fear and Loathing in Las Vegas",
                                 "https://upload.wikimedia.org/wikipedia/en/6/6f/FandlinLV.jpg",
                                 "https://www.youtube.com/watch?v=8m662obIvhY")
 
-movies = [castaway_on_the_moon, fear_and_loathing, enter_the_void]
-fresh_tomatoes.open_movies_page(movies)
+filmes = [castaway_on_the_moon, fear_and_loathing, enter_the_void]
+fresh_tomatoes.open_movies_page(filmes)

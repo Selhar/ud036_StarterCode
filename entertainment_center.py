@@ -2,7 +2,7 @@
 import media
 import fresh_tomatoes
 
-# Inicializa objetos com todos os filmes que serão exibidos na página
+# Objetos com todos os filmes que serão exibidos na página
 castaway_on_the_moon = media.Movie(
     "Castaway on the Moon",
     "https://upload.wikimedia.org/wikipedia/en/c/c0/Castaway_on_the_Moon_poster.jpg",
@@ -22,5 +22,4 @@ fear_and_loathing = media.Movie(
 )
 
 filmes = [castaway_on_the_moon, fear_and_loathing, enter_the_void]
-# Gera a página HTML utilizando os filmes especificados aqui
 fresh_tomatoes.open_movies_page(filmes)
